@@ -1,0 +1,38 @@
+/* Estilos Básicos */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo para Contenedor Principal*/
+.container {
+    text-align: center;
+    max-width: 600px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #333;
+}
+
+/* Estilos para botones */
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #630936;
+}
+
+#contenedor p, #contenedor button {
+    margin-top: 10px;
+}
+
+
